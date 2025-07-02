@@ -69,7 +69,7 @@ LibraryManagement_autogen\QYFM2Z2WYQ\qrc_resource.cpp: C:\Library-Management-mai
 LibraryManagement_autogen\QYFM2Z2WYQ\qrc_resource.cpp: CMakeFiles\LibraryManagement_autogen.dir\AutoRcc_resource_QYFM2Z2WYQ_Info.json
 LibraryManagement_autogen\QYFM2Z2WYQ\qrc_resource.cpp: C:\Library-Management-main\data\critical.jpg
 LibraryManagement_autogen\QYFM2Z2WYQ\qrc_resource.cpp: C:\Library-Management-main\data\inf.jpg
-LibraryManagement_autogen\QYFM2Z2WYQ\qrc_resource.cpp: C:\Library-Management-main\data\library.jpg
+LibraryManagement_autogen\QYFM2Z2WYQ\qrc_resource.cpp: C:\Library-Management-main\data\library.png
 LibraryManagement_autogen\QYFM2Z2WYQ\qrc_resource.cpp: C:\Library-Management-main\data\search.jpg
 LibraryManagement_autogen\QYFM2Z2WYQ\qrc_resource.cpp: C:\Qt\6.9.1\msvc2022_64\bin\rcc.exe
 LibraryManagement_autogen\QYFM2Z2WYQ\qrc_resource.cpp: C:\Qt\6.9.1\msvc2022_64\bin\rcc.exe

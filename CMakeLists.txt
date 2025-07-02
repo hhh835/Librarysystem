@@ -10,10 +10,10 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# ✅ 指定使用 Qt6 并加载所需模块
+# 指定使用 Qt6 并加载所需模块
 find_package(Qt6 REQUIRED COMPONENTS Core Gui Sql Widgets)
 
-# ✅ 指定 UI 搜索路径（用于 AUTOUIC）
+# 指定 UI 搜索路径（用于 AUTOUIC）
 set(CMAKE_AUTOUIC_SEARCH_PATHS
     "${CMAKE_CURRENT_SOURCE_DIR}/ui"
     "${CMAKE_CURRENT_SOURCE_DIR}/ui/books"
@@ -115,5 +115,6 @@ target_link_libraries(LibraryManagement
     Qt6::Core
     Qt6::Sql
 )
+
 
 

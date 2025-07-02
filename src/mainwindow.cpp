@@ -21,7 +21,7 @@ MainWindow::MainWindow(QWidget* parent)
     ptrSearchIssuedBook = new SearchIssuedBook(this);
     maxBorrowDays = 14;
 
-    QPixmap bkgnd(":/library.jpg");
+    QPixmap bkgnd(":/library.png");
     bkgnd = bkgnd.scaled(this->size(), Qt::IgnoreAspectRatio);
     QPalette palette;
     palette.setBrush(QPalette::Window, bkgnd);
