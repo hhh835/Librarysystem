@@ -65,10 +65,8 @@ public:
     QMenu *Records;
     QMenu *menuBooks;
     QMenu *menuPrint;
-    QMenu *menuExport_as_csv;
     QMenu *menuUsers;
     QMenu *menuPrint_2;
-    QMenu *menuExport_as_csv_2;
     QMenu *menuIssued_Books;
     QMenu *menuOverdue_Books;
 
@@ -266,14 +264,10 @@ public:
         menuBooks->setObjectName("menuBooks");
         menuPrint = new QMenu(menuBooks);
         menuPrint->setObjectName("menuPrint");
-        menuExport_as_csv = new QMenu(menuBooks);
-        menuExport_as_csv->setObjectName("menuExport_as_csv");
         menuUsers = new QMenu(Records);
         menuUsers->setObjectName("menuUsers");
         menuPrint_2 = new QMenu(menuUsers);
         menuPrint_2->setObjectName("menuPrint_2");
-        menuExport_as_csv_2 = new QMenu(menuUsers);
-        menuExport_as_csv_2->setObjectName("menuExport_as_csv_2");
         menuIssued_Books = new QMenu(Records);
         menuIssued_Books->setObjectName("menuIssued_Books");
         menuOverdue_Books = new QMenu(Records);
@@ -299,12 +293,10 @@ public:
         Records->addAction(menuOverdue_Books->menuAction());
         Records->addAction(actionBackup_Database);
         menuBooks->addAction(menuPrint->menuAction());
-        menuBooks->addAction(menuExport_as_csv->menuAction());
         menuPrint->addAction(print_by_Id);
         menuPrint->addAction(print_by_author);
         menuPrint->addAction(print_by_book);
         menuUsers->addAction(menuPrint_2->menuAction());
-        menuUsers->addAction(menuExport_as_csv_2->menuAction());
         menuPrint_2->addAction(printUsersById);
         menuPrint_2->addAction(printUsersByName);
         menuIssued_Books->addAction(print_issued_books);
@@ -357,10 +349,8 @@ public:
         Records->setTitle(QCoreApplication::translate("MainWindow", "Records", nullptr));
         menuBooks->setTitle(QCoreApplication::translate("MainWindow", "Books", nullptr));
         menuPrint->setTitle(QCoreApplication::translate("MainWindow", "Print", nullptr));
-        menuExport_as_csv->setTitle(QCoreApplication::translate("MainWindow", "Export as csv", nullptr));
         menuUsers->setTitle(QCoreApplication::translate("MainWindow", "Users", nullptr));
         menuPrint_2->setTitle(QCoreApplication::translate("MainWindow", "Print", nullptr));
-        menuExport_as_csv_2->setTitle(QCoreApplication::translate("MainWindow", "Export as csv", nullptr));
         menuIssued_Books->setTitle(QCoreApplication::translate("MainWindow", "Issued Books", nullptr));
         menuOverdue_Books->setTitle(QCoreApplication::translate("MainWindow", "Overdue Books", nullptr));
     } // retranslateUi

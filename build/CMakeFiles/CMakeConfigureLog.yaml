@@ -63,8 +63,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-xdd39a"
-      binary: "C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-xdd39a"
+      source: "C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-siuajl"
+      binary: "C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-siuajl"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -74,29 +74,29 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-xdd39a'
+        Change Dir: 'C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-siuajl'
         
-        Run Build Command(s): C:/Users/sz_lc/scoop/apps/cmake/3.31.2/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_d7556\\fast
-        	D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe  -f CMakeFiles\\cmTC_d7556.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_d7556.dir\\build
-        Building CXX object CMakeFiles/cmTC_d7556.dir/CMakeCXXCompilerABI.cpp.obj
-        	C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_d7556.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xdd39a --filter-prefix="注意: 包含文件:  " -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm8D98.tmp
+        Run Build Command(s): C:/Users/sz_lc/scoop/apps/cmake/3.31.2/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_b33bd\\fast
+        	D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe  -f CMakeFiles\\cmTC_b33bd.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_b33bd.dir\\build
+        Building CXX object CMakeFiles/cmTC_b33bd.dir/CMakeCXXCompilerABI.cpp.obj
+        	C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_b33bd.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-siuajl --filter-prefix="注意: 包含文件:  " -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm8973.tmp
         CMakeCXXCompilerABI.cpp
         注意: 包含文件:  C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\share\\cmake-3.31\\Modules\\CMakeCompilerABI.h
-        Linking CXX executable cmTC_d7556.exe
-        	C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1942 --intdir=CMakeFiles\\cmTC_d7556.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_d7556.dir\\objects1.rsp @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm8DE7.tmp
+        Linking CXX executable cmTC_b33bd.exe
+        	C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1942 --intdir=CMakeFiles\\cmTC_b33bd.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_b33bd.dir\\objects1.rsp @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm8B0A.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_d7556.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_d7556.dir/embed.manifest
+        Create CMakeFiles\\cmTC_b33bd.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_b33bd.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_d7556.dir/manifest.res CMakeFiles\\cmTC_d7556.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_b33bd.dir/manifest.res CMakeFiles\\cmTC_b33bd.dir/manifest.rc
         LINK Pass 1:
-        D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_d7556.dir\\objects1.rsp /out:cmTC_d7556.exe /implib:cmTC_d7556.lib /pdb:C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xdd39a\\cmTC_d7556.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_d7556.dir/intermediate.manifest CMakeFiles\\cmTC_d7556.dir/manifest.res
+        D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_b33bd.dir\\objects1.rsp /out:cmTC_b33bd.exe /implib:cmTC_b33bd.lib /pdb:C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-siuajl\\cmTC_b33bd.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_b33bd.dir/intermediate.manifest CMakeFiles\\cmTC_b33bd.dir/manifest.res
         MT:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_d7556.dir/intermediate.manifest /out:CMakeFiles\\cmTC_d7556.dir/embed.manifest /notify_update
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_b33bd.dir/intermediate.manifest /out:CMakeFiles\\cmTC_b33bd.dir/embed.manifest /notify_update
         RC Pass 2:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_d7556.dir/manifest.res CMakeFiles\\cmTC_d7556.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_b33bd.dir/manifest.res CMakeFiles\\cmTC_b33bd.dir/manifest.rc
         FINAL LINK:
-        D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_d7556.dir\\objects1.rsp /out:cmTC_d7556.exe /implib:cmTC_d7556.lib /pdb:C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xdd39a\\cmTC_d7556.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_d7556.dir/intermediate.manifest CMakeFiles\\cmTC_d7556.dir/manifest.res
+        D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_b33bd.dir\\objects1.rsp /out:cmTC_b33bd.exe /implib:cmTC_b33bd.lib /pdb:C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-siuajl\\cmTC_b33bd.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_b33bd.dir/intermediate.manifest CMakeFiles\\cmTC_b33bd.dir/manifest.res
         
       exitCode: 0
   -
@@ -142,8 +142,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-gnby10"
-      binary: "C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-gnby10"
+      source: "C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-5cz3ei"
+      binary: "C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-5cz3ei"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -153,17 +153,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-gnby10'
+        Change Dir: 'C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-5cz3ei'
         
-        Run Build Command(s): C:/Users/sz_lc/scoop/apps/cmake/3.31.2/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_84c98\\fast
-        	D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe  -f CMakeFiles\\cmTC_84c98.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_84c98.dir\\build
-        Building CXX object CMakeFiles/cmTC_84c98.dir/src.cxx.obj
-        	C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_84c98.dir\\src.cxx.obj.d --working-dir=C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gnby10 --filter-prefix="注意: 包含文件:  " -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm90A6.tmp
+        Run Build Command(s): C:/Users/sz_lc/scoop/apps/cmake/3.31.2/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_0e31d\\fast
+        	D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe  -f CMakeFiles\\cmTC_0e31d.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_0e31d.dir\\build
+        Building CXX object CMakeFiles/cmTC_0e31d.dir/src.cxx.obj
+        	C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_0e31d.dir\\src.cxx.obj.d --working-dir=C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5cz3ei --filter-prefix="注意: 包含文件:  " -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm8DA9.tmp
         src.cxx
-        C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gnby10\\src.cxx(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
-        NMAKE : fatal error U1077: \xa1\xb0C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_84c98.dir\\src.cxx.obj.d --working-dir=C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gnby10 --filter-prefix="注意: 包含文件:  " -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm90A6.tmp\xa1\xb1: \xb7\xb5\xbbش\xfa\xc2롰0x2\xa1\xb1
+        C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5cz3ei\\src.cxx(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
+        NMAKE : fatal error U1077: \xa1\xb0C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_0e31d.dir\\src.cxx.obj.d --working-dir=C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5cz3ei --filter-prefix="注意: 包含文件:  " -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm8DA9.tmp\xa1\xb1: \xb7\xb5\xbbش\xfa\xc2롰0x2\xa1\xb1
         Stop.
-        NMAKE : fatal error U1077: \xa1\xb0D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe  -f CMakeFiles\\cmTC_84c98.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_84c98.dir\\build\xa1\xb1: \xb7\xb5\xbbش\xfa\xc2롰0x2\xa1\xb1
+        NMAKE : fatal error U1077: \xa1\xb0D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe  -f CMakeFiles\\cmTC_0e31d.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_0e31d.dir\\build\xa1\xb1: \xb7\xb5\xbbش\xfa\xc2롰0x2\xa1\xb1
         Stop.
         
       exitCode: 2
@@ -181,8 +181,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-xkkp9e"
-      binary: "C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-xkkp9e"
+      source: "C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-wu3qbz"
+      binary: "C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-wu3qbz"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -192,27 +192,27 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-xkkp9e'
+        Change Dir: 'C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-wu3qbz'
         
-        Run Build Command(s): C:/Users/sz_lc/scoop/apps/cmake/3.31.2/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_80677\\fast
-        	D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe  -f CMakeFiles\\cmTC_80677.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_80677.dir\\build
-        Building CXX object CMakeFiles/cmTC_80677.dir/CheckFunctionExists.cxx.obj
-        	C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_80677.dir\\CheckFunctionExists.cxx.obj.d --working-dir=C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xkkp9e --filter-prefix="注意: 包含文件:  " -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm91BF.tmp
+        Run Build Command(s): C:/Users/sz_lc/scoop/apps/cmake/3.31.2/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_c3e5b\\fast
+        	D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe  -f CMakeFiles\\cmTC_c3e5b.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_c3e5b.dir\\build
+        Building CXX object CMakeFiles/cmTC_c3e5b.dir/CheckFunctionExists.cxx.obj
+        	C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_c3e5b.dir\\CheckFunctionExists.cxx.obj.d --working-dir=C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wu3qbz --filter-prefix="注意: 包含文件:  " -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm8EC2.tmp
         CheckFunctionExists.cxx
-        Linking CXX executable cmTC_80677.exe
-        	C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1942 --intdir=CMakeFiles\\cmTC_80677.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_80677.dir\\objects1.rsp @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm922D.tmp
+        Linking CXX executable cmTC_c3e5b.exe
+        	C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1942 --intdir=CMakeFiles\\cmTC_c3e5b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_c3e5b.dir\\objects1.rsp @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm8F21.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_80677.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_80677.dir/embed.manifest
+        Create CMakeFiles\\cmTC_c3e5b.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_c3e5b.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_80677.dir/manifest.res CMakeFiles\\cmTC_80677.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_c3e5b.dir/manifest.res CMakeFiles\\cmTC_c3e5b.dir/manifest.rc
         LINK Pass 1:
-        D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_80677.dir\\objects1.rsp /out:cmTC_80677.exe /implib:cmTC_80677.lib /pdb:C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xkkp9e\\cmTC_80677.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_80677.dir/intermediate.manifest CMakeFiles\\cmTC_80677.dir/manifest.res
-        LINK Pass 1: command "D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_80677.dir\\objects1.rsp /out:cmTC_80677.exe /implib:cmTC_80677.lib /pdb:C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xkkp9e\\cmTC_80677.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_80677.dir/intermediate.manifest CMakeFiles\\cmTC_80677.dir/manifest.res" failed (exit code 1104) with the following output:
+        D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_c3e5b.dir\\objects1.rsp /out:cmTC_c3e5b.exe /implib:cmTC_c3e5b.lib /pdb:C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wu3qbz\\cmTC_c3e5b.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_c3e5b.dir/intermediate.manifest CMakeFiles\\cmTC_c3e5b.dir/manifest.res
+        LINK Pass 1: command "D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_c3e5b.dir\\objects1.rsp /out:cmTC_c3e5b.exe /implib:cmTC_c3e5b.lib /pdb:C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wu3qbz\\cmTC_c3e5b.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_c3e5b.dir/intermediate.manifest CMakeFiles\\cmTC_c3e5b.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: 无法打开文件“pthreads.lib”
-        NMAKE : fatal error U1077: \xa1\xb0C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1942 --intdir=CMakeFiles\\cmTC_80677.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_80677.dir\\objects1.rsp @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm922D.tmp\xa1\xb1: \xb7\xb5\xbbش\xfa\xc2롰0xffffffff\xa1\xb1
+        NMAKE : fatal error U1077: \xa1\xb0C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1942 --intdir=CMakeFiles\\cmTC_c3e5b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_c3e5b.dir\\objects1.rsp @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm8F21.tmp\xa1\xb1: \xb7\xb5\xbbش\xfa\xc2롰0xffffffff\xa1\xb1
         Stop.
-        NMAKE : fatal error U1077: \xa1\xb0D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe  -f CMakeFiles\\cmTC_80677.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_80677.dir\\build\xa1\xb1: \xb7\xb5\xbbش\xfa\xc2롰0x2\xa1\xb1
+        NMAKE : fatal error U1077: \xa1\xb0D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe  -f CMakeFiles\\cmTC_c3e5b.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_c3e5b.dir\\build\xa1\xb1: \xb7\xb5\xbbش\xfa\xc2롰0x2\xa1\xb1
         Stop.
         
       exitCode: 2
@@ -230,8 +230,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-5980b2"
-      binary: "C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-5980b2"
+      source: "C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-lnwon8"
+      binary: "C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-lnwon8"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -241,27 +241,27 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-5980b2'
+        Change Dir: 'C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-lnwon8'
         
-        Run Build Command(s): C:/Users/sz_lc/scoop/apps/cmake/3.31.2/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_1e103\\fast
-        	D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe  -f CMakeFiles\\cmTC_1e103.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_1e103.dir\\build
-        Building CXX object CMakeFiles/cmTC_1e103.dir/CheckFunctionExists.cxx.obj
-        	C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_1e103.dir\\CheckFunctionExists.cxx.obj.d --working-dir=C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5980b2 --filter-prefix="注意: 包含文件:  " -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm9336.tmp
+        Run Build Command(s): C:/Users/sz_lc/scoop/apps/cmake/3.31.2/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_a9984\\fast
+        	D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe  -f CMakeFiles\\cmTC_a9984.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_a9984.dir\\build
+        Building CXX object CMakeFiles/cmTC_a9984.dir/CheckFunctionExists.cxx.obj
+        	C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_a9984.dir\\CheckFunctionExists.cxx.obj.d --working-dir=C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lnwon8 --filter-prefix="注意: 包含文件:  " -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm9029.tmp
         CheckFunctionExists.cxx
-        Linking CXX executable cmTC_1e103.exe
-        	C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1942 --intdir=CMakeFiles\\cmTC_1e103.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_1e103.dir\\objects1.rsp @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm9395.tmp
+        Linking CXX executable cmTC_a9984.exe
+        	C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1942 --intdir=CMakeFiles\\cmTC_a9984.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a9984.dir\\objects1.rsp @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm9088.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_1e103.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_1e103.dir/embed.manifest
+        Create CMakeFiles\\cmTC_a9984.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_a9984.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_1e103.dir/manifest.res CMakeFiles\\cmTC_1e103.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_a9984.dir/manifest.res CMakeFiles\\cmTC_a9984.dir/manifest.rc
         LINK Pass 1:
-        D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_1e103.dir\\objects1.rsp /out:cmTC_1e103.exe /implib:cmTC_1e103.lib /pdb:C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5980b2\\cmTC_1e103.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_1e103.dir/intermediate.manifest CMakeFiles\\cmTC_1e103.dir/manifest.res
-        LINK Pass 1: command "D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_1e103.dir\\objects1.rsp /out:cmTC_1e103.exe /implib:cmTC_1e103.lib /pdb:C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5980b2\\cmTC_1e103.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_1e103.dir/intermediate.manifest CMakeFiles\\cmTC_1e103.dir/manifest.res" failed (exit code 1104) with the following output:
+        D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a9984.dir\\objects1.rsp /out:cmTC_a9984.exe /implib:cmTC_a9984.lib /pdb:C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lnwon8\\cmTC_a9984.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_a9984.dir/intermediate.manifest CMakeFiles\\cmTC_a9984.dir/manifest.res
+        LINK Pass 1: command "D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a9984.dir\\objects1.rsp /out:cmTC_a9984.exe /implib:cmTC_a9984.lib /pdb:C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lnwon8\\cmTC_a9984.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_a9984.dir/intermediate.manifest CMakeFiles\\cmTC_a9984.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: 无法打开文件“pthread.lib”
-        NMAKE : fatal error U1077: \xa1\xb0C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1942 --intdir=CMakeFiles\\cmTC_1e103.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_1e103.dir\\objects1.rsp @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm9395.tmp\xa1\xb1: \xb7\xb5\xbbش\xfa\xc2롰0xffffffff\xa1\xb1
+        NMAKE : fatal error U1077: \xa1\xb0C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1942 --intdir=CMakeFiles\\cmTC_a9984.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a9984.dir\\objects1.rsp @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm9088.tmp\xa1\xb1: \xb7\xb5\xbbش\xfa\xc2롰0xffffffff\xa1\xb1
         Stop.
-        NMAKE : fatal error U1077: \xa1\xb0D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe  -f CMakeFiles\\cmTC_1e103.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_1e103.dir\\build\xa1\xb1: \xb7\xb5\xbbش\xfa\xc2롰0x2\xa1\xb1
+        NMAKE : fatal error U1077: \xa1\xb0D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe  -f CMakeFiles\\cmTC_a9984.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_a9984.dir\\build\xa1\xb1: \xb7\xb5\xbbش\xfa\xc2롰0x2\xa1\xb1
         Stop.
         
       exitCode: 2
@@ -280,8 +280,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-y39b7e"
-      binary: "C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-y39b7e"
+      source: "C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-lzuoaz"
+      binary: "C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-lzuoaz"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -291,12 +291,12 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: 'C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-y39b7e'
+        Change Dir: 'C:/Library-Management-main/build/CMakeFiles/CMakeScratch/TryCompile-lzuoaz'
         
-        Run Build Command(s): C:/Users/sz_lc/scoop/apps/cmake/3.31.2/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_cbd49\\fast
-        	D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe  -f CMakeFiles\\cmTC_cbd49.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_cbd49.dir\\build
-        Building CXX object CMakeFiles/cmTC_cbd49.dir/src.cxx.obj
-        	C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_cbd49.dir\\src.cxx.obj.d --working-dir=C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y39b7e --filter-prefix="注意: 包含文件:  " -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm948E.tmp
+        Run Build Command(s): C:/Users/sz_lc/scoop/apps/cmake/3.31.2/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_a18f9\\fast
+        	D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe  -f CMakeFiles\\cmTC_a18f9.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_a18f9.dir\\build
+        Building CXX object CMakeFiles/cmTC_a18f9.dir/src.cxx.obj
+        	C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_a18f9.dir\\src.cxx.obj.d --working-dir=C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lzuoaz --filter-prefix="注意: 包含文件:  " -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm9191.tmp
         src.cxx
         注意: 包含文件:  D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\include\\atomic
         注意: 包含文件:   D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\include\\yvals.h
@@ -336,21 +336,21 @@ events:
         注意: 包含文件:     D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\include\\ctime
         注意: 包含文件:      C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt\\time.h
         注意: 包含文件:       C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt\\corecrt_wtime.h
-        Linking CXX executable cmTC_cbd49.exe
-        	C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1942 --intdir=CMakeFiles\\cmTC_cbd49.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_cbd49.dir\\objects1.rsp @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm953A.tmp
+        Linking CXX executable cmTC_a18f9.exe
+        	C:\\Users\\sz_lc\\scoop\\apps\\cmake\\3.31.2\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1942 --intdir=CMakeFiles\\cmTC_a18f9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a18f9.dir\\objects1.rsp @C:\\Users\\sz_lc\\AppData\\Local\\Temp\\nm921E.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_cbd49.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_cbd49.dir/embed.manifest
+        Create CMakeFiles\\cmTC_a18f9.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_a18f9.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_cbd49.dir/manifest.res CMakeFiles\\cmTC_cbd49.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_a18f9.dir/manifest.res CMakeFiles\\cmTC_a18f9.dir/manifest.rc
         LINK Pass 1:
-        D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_cbd49.dir\\objects1.rsp /out:cmTC_cbd49.exe /implib:cmTC_cbd49.lib /pdb:C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y39b7e\\cmTC_cbd49.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_cbd49.dir/intermediate.manifest CMakeFiles\\cmTC_cbd49.dir/manifest.res
+        D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a18f9.dir\\objects1.rsp /out:cmTC_a18f9.exe /implib:cmTC_a18f9.lib /pdb:C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lzuoaz\\cmTC_a18f9.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_a18f9.dir/intermediate.manifest CMakeFiles\\cmTC_a18f9.dir/manifest.res
         MT:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_cbd49.dir/intermediate.manifest /out:CMakeFiles\\cmTC_cbd49.dir/embed.manifest /notify_update
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_a18f9.dir/intermediate.manifest /out:CMakeFiles\\cmTC_a18f9.dir/embed.manifest /notify_update
         RC Pass 2:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_cbd49.dir/manifest.res CMakeFiles\\cmTC_cbd49.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_a18f9.dir/manifest.res CMakeFiles\\cmTC_a18f9.dir/manifest.rc
         FINAL LINK:
-        D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_cbd49.dir\\objects1.rsp /out:cmTC_cbd49.exe /implib:cmTC_cbd49.lib /pdb:C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y39b7e\\cmTC_cbd49.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_cbd49.dir/intermediate.manifest CMakeFiles\\cmTC_cbd49.dir/manifest.res
+        D:\\vs\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a18f9.dir\\objects1.rsp /out:cmTC_a18f9.exe /implib:cmTC_a18f9.lib /pdb:C:\\Library-Management-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lzuoaz\\cmTC_a18f9.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_a18f9.dir/intermediate.manifest CMakeFiles\\cmTC_a18f9.dir/manifest.res
         
       exitCode: 0
 ...

@@ -254,13 +254,7 @@ QMenuBar::item:pressed{
       <addaction name="print_by_author"/>
       <addaction name="print_by_book"/>
      </widget>
-     <widget class="QMenu" name="menuExport_as_csv">
-      <property name="title">
-       <string>Export as csv</string>
-      </property>
-     </widget>
      <addaction name="menuPrint"/>
-     <addaction name="menuExport_as_csv"/>
     </widget>
     <widget class="QMenu" name="menuUsers">
      <property name="title">
@@ -273,13 +267,7 @@ QMenuBar::item:pressed{
       <addaction name="printUsersById"/>
       <addaction name="printUsersByName"/>
      </widget>
-     <widget class="QMenu" name="menuExport_as_csv_2">
-      <property name="title">
-       <string>Export as csv</string>
-      </property>
-     </widget>
      <addaction name="menuPrint_2"/>
-     <addaction name="menuExport_as_csv_2"/>
     </widget>
     <widget class="QMenu" name="menuIssued_Books">
      <property name="title">
