@@ -1,0 +1,28 @@
+{
+	"BUILD_DIR" : "C:/Library-Management-main/build/LibraryManagement_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Library-Management-main/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Library-Management-main/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Library-Management-main",
+	"CMAKE_SOURCE_DIR" : "C:/Library-Management-main",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "NMake Makefiles",
+	"INCLUDE_DIR" : "C:/Library-Management-main/build/LibraryManagement_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Library-Management-main/data/critical.jpg",
+		"C:/Library-Management-main/data/inf.jpg",
+		"C:/Library-Management-main/data/library.jpg",
+		"C:/Library-Management-main/data/search.jpg"
+	],
+	"LOCK_FILE" : "C:/Library-Management-main/build/CMakeFiles/LibraryManagement_autogen.dir/AutoRcc_resource_QYFM2Z2WYQ_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "resource" ],
+	"OUTPUT_CHECKSUM" : "QYFM2Z2WYQ",
+	"OUTPUT_NAME" : "qrc_resource.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.9.1/msvc2022_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Library-Management-main/build/CMakeFiles/LibraryManagement_autogen.dir/AutoRcc_resource_QYFM2Z2WYQ_Used.txt",
+	"SOURCE" : "C:/Library-Management-main/data/resource.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

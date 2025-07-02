@@ -72,7 +72,7 @@
      <string>Library Management System</string>
     </property>
     <property name="alignment">
-     <set>Qt::AlignCenter</set>
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
@@ -175,7 +175,7 @@ QPushButton:pressed{
      <x>0</x>
      <y>0</y>
      <width>815</width>
-     <height>33</height>
+     <height>34</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -235,6 +235,8 @@ QMenuBar::item:pressed{
     <addaction name="editUser"/>
     <addaction name="searchUser"/>
     <addaction name="deleteUser"/>
+    <addaction name="actionUser_Feedback"/>
+    <addaction name="actionUser_Fine_Payment"/>
    </widget>
    <widget class="QMenu" name="Transations">
     <property name="title">
@@ -310,6 +312,7 @@ QMenuBar::item:pressed{
     <addaction name="menuUsers"/>
     <addaction name="menuIssued_Books"/>
     <addaction name="menuOverdue_Books"/>
+    <addaction name="actionBackup_Database"/>
    </widget>
    <addaction name="Books"/>
    <addaction name="Users"/>
@@ -499,6 +502,21 @@ QMenuBar::item:pressed{
   <action name="csvExportUsersByName">
    <property name="text">
     <string>By Name</string>
+   </property>
+  </action>
+  <action name="actionUser_Feedback">
+   <property name="text">
+    <string>User Feedback</string>
+   </property>
+  </action>
+  <action name="actionUser_Fine_Payment">
+   <property name="text">
+    <string>Fine Payment</string>
+   </property>
+  </action>
+  <action name="actionBackup_Database">
+   <property name="text">
+    <string>Backup Database</string>
    </property>
   </action>
  </widget>

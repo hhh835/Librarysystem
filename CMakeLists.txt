@@ -13,7 +13,13 @@ find_package(QT NAMES Qt5 Qt6 REQUIRED COMPONENTS Core)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Gui Sql)
 find_package(Qt${QT_VERSION_MAJOR} OPTIONAL_COMPONENTS Widgets)
 
-set(CMAKE_AUTOUIC_SEARCH_PATHS "${CMAKE_CURRENT_SOURCE_DIR}/ui" "${CMAKE_CURRENT_SOURCE_DIR}/ui/books" "${CMAKE_CURRENT_SOURCE_DIR}/ui/dialog_box" "${CMAKE_CURRENT_SOURCE_DIR}/ui/transactions" "${CMAKE_CURRENT_SOURCE_DIR}/ui/users")
+set(CMAKE_AUTOUIC_SEARCH_PATHS
+    "${CMAKE_CURRENT_SOURCE_DIR}/ui"
+    "${CMAKE_CURRENT_SOURCE_DIR}/ui/books"
+    "${CMAKE_CURRENT_SOURCE_DIR}/ui/dialog_box"
+    "${CMAKE_CURRENT_SOURCE_DIR}/ui/transactions"
+    "${CMAKE_CURRENT_SOURCE_DIR}/ui/users"
+)
 
 set(SOURCES
     src/about.cpp
@@ -35,6 +41,9 @@ set(SOURCES
     src/users/adduser.cpp
     src/users/edituser.cpp
     src/users/searchuser.cpp
+    src/feedbackform.cpp
+    src/backuprestore.cpp
+    src/finepayment.cpp         # ✅ 新增
 )
 
 set(HEADERS
@@ -56,6 +65,9 @@ set(HEADERS
     include/users/adduser.h
     include/users/edituser.h
     include/users/searchuser.h
+    include/feedbackform.h
+    include/backuprestore.h
+    include/finepayment.h       # ✅ 新增
 )
 
 set(UI
@@ -75,11 +87,25 @@ set(UI
     ui/users/adduser.ui
     ui/users/edituser.ui
     ui/users/searchuser.ui
+    ui/feedbackform.ui
+    ui/backuprestore.ui
+    ui/finepayment.ui           # ✅ 新增
 )
 
 set(RESOURCES
     data/resource.qrc
 )
 
-add_executable(LibraryManagement ${SOURCES} ${HEADERS} ${UI} ${RESOURCES})
-target_link_libraries(LibraryManagement Qt5::Widgets Qt5::Core Qt5::Sql)
+add_executable(LibraryManagement
+    ${SOURCES}
+    ${HEADERS}
+    ${UI}
+    ${RESOURCES}
+)
+
+target_link_libraries(LibraryManagement
+    Qt${QT_VERSION_MAJOR}::Widgets
+    Qt${QT_VERSION_MAJOR}::Core
+    Qt${QT_VERSION_MAJOR}::Sql
+)
+

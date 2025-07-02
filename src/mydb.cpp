@@ -8,27 +8,21 @@ MyDB::MyDB()
 }
 void MyDB::init()
 {
-//    db = QSqlDatabase::addDatabase("QMYSQL");
-//    db.setHostName("localhost");
-//    db.setPort(3306);
-//    db.setDatabaseName("library");
-//    db.setUserName("test_user");
-//    db.setPassword("#jish2023");
-
     db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("/home/jis/Qt_projects/LibraryManagement/data/library.sqlite3");
+    QString dbPath = QDir::currentPath() + "/../data/library.sqlite3";
+    qDebug() << "📂 当前工作目录:" << QDir::currentPath();
+    qDebug() << "📄 尝试打开数据库:" << dbPath;
 
-    if (db.open())
-    {
-        qDebug() << "Connected!";
-    }
-    else
-    {
-        qDebug() << "Failed to connect.";
-    }
+    db.setDatabaseName(dbPath);
 
-    //sqlite3 database.sqlite3 < library.sql
+    if (db.open()) {
+        qDebug() << "✅ 数据库连接成功";
+    } else {
+        qDebug() << "❌ 数据库连接失败:" << db.lastError().text();
+    }
 }
+
+
 
 MyDB *MyDB::getInstance()
 {

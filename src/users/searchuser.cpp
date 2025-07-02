@@ -31,8 +31,9 @@ void SearchUser::editClickEvent(){
     int row = selection.at(0).row();
     QModelIndex index;
     QString cellData;
-    int columnCount = ui->userSearchTable->model()->columnCount();
-    QString rowData[columnCount];
+   int columnCount = ui->userSearchTable->model()->columnCount();
+    QVector<QString> rowData(columnCount);  
+
 
     for (int i = 0; i < columnCount; i++){
         index =  ui->userSearchTable->model()->index(row,i);

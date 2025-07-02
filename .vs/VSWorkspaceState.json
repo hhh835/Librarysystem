@@ -1,0 +1,21 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "out\\build\\debug",
+      "out\\build\\release"
+    ]
+  },
+  "ExpandedNodes": [
+    "",
+    "\\include",
+    "\\src",
+    "\\src\\books",
+    "\\src\\dialog_box",
+    "\\src\\transactions",
+    "\\src\\users",
+    "\\ui",
+    "\\ui\\users"
+  ],
+  "SelectedNode": "\\ui\\users\\searchuser.ui",
+  "PreviewInSolutionExplorer": false
+}

@@ -33,7 +33,8 @@ void SearchBook::editClickEvent(){
     QModelIndex index;
     QString cellData;
     int columnCount = ui->bookSearchTable->model()->columnCount();
-    QString rowData[columnCount];
+    QVector<QString> rowData(columnCount);  
+
 
     for (int i = 0; i < columnCount; i++){
         index =  ui->bookSearchTable->model()->index(row,i);

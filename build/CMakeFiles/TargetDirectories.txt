@@ -1,0 +1,5 @@
+C:/Library-Management-main/build/CMakeFiles/LibraryManagement.dir
+C:/Library-Management-main/build/CMakeFiles/edit_cache.dir
+C:/Library-Management-main/build/CMakeFiles/rebuild_cache.dir
+C:/Library-Management-main/build/CMakeFiles/LibraryManagement_autogen_timestamp_deps.dir
+C:/Library-Management-main/build/CMakeFiles/LibraryManagement_autogen.dir

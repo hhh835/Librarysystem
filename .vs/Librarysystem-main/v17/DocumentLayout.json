@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Librarysystem-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Librarysystem-main\\ui\\backuprestore.ui||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ui\\backuprestore.ui||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Librarysystem-main\\src\\backuprestore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\backuprestore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Librarysystem-main\\include\\backuprestore.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\backuprestore.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Librarysystem-main\\ui\\feedbackform.ui||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ui\\feedbackform.ui||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Librarysystem-main\\src\\feedbackform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\feedbackform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Librarysystem-main\\include\\feedbackform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\feedbackform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Librarysystem-main\\src\\finepayment.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\finepayment.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Librarysystem-main\\include\\finepayment.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\finepayment.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Librarysystem-main\\ui\\finepayment.ui||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ui\\finepayment.ui||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|CMake \u6982\u8FF0\u9875||{B1CAA5B0-FEB1-4350-8AB9-F895876842F2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "backuprestore.ui",
+              "DocumentMoniker": "C:\\Librarysystem-main\\ui\\backuprestore.ui",
+              "RelativeDocumentMoniker": "ui\\backuprestore.ui",
+              "ToolTip": "C:\\Librarysystem-main\\ui\\backuprestore.ui",
+              "RelativeToolTip": "ui\\backuprestore.ui",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA/wCIAAAAFAAAAAAAAAA==",
+              "Icon": "0d2e443f-6dbb-4001-99dc-9cd7d5c924e7.000006|",
+              "WhenOpened": "2025-07-02T08:51:29.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "backuprestore.cpp",
+              "DocumentMoniker": "C:\\Librarysystem-main\\src\\backuprestore.cpp",
+              "RelativeDocumentMoniker": "src\\backuprestore.cpp",
+              "ToolTip": "C:\\Librarysystem-main\\src\\backuprestore.cpp",
+              "RelativeToolTip": "src\\backuprestore.cpp",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-02T08:51:09.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "backuprestore.h",
+              "DocumentMoniker": "C:\\Librarysystem-main\\include\\backuprestore.h",
+              "RelativeDocumentMoniker": "include\\backuprestore.h",
+              "ToolTip": "C:\\Librarysystem-main\\include\\backuprestore.h",
+              "RelativeToolTip": "include\\backuprestore.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAA3wBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-02T08:50:44.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "feedbackform.ui",
+              "DocumentMoniker": "C:\\Librarysystem-main\\ui\\feedbackform.ui",
+              "RelativeDocumentMoniker": "ui\\feedbackform.ui",
+              "ToolTip": "C:\\Librarysystem-main\\ui\\feedbackform.ui",
+              "RelativeToolTip": "ui\\feedbackform.ui",
+              "ViewState": "AgIAACUAAAAAAAAAAAAzwD0AAAAFAAAAAAAAAA==",
+              "Icon": "0d2e443f-6dbb-4001-99dc-9cd7d5c924e7.000006|",
+              "WhenOpened": "2025-07-02T08:50:21.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "feedbackform.cpp",
+              "DocumentMoniker": "C:\\Librarysystem-main\\src\\feedbackform.cpp",
+              "RelativeDocumentMoniker": "src\\feedbackform.cpp",
+              "ToolTip": "C:\\Librarysystem-main\\src\\feedbackform.cpp",
+              "RelativeToolTip": "src\\feedbackform.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-02T08:48:18.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "feedbackform.h",
+              "DocumentMoniker": "C:\\Librarysystem-main\\include\\feedbackform.h",
+              "RelativeDocumentMoniker": "include\\feedbackform.h",
+              "ToolTip": "C:\\Librarysystem-main\\include\\feedbackform.h",
+              "RelativeToolTip": "include\\feedbackform.h",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-02T08:47:53.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "finepayment.cpp",
+              "DocumentMoniker": "C:\\Librarysystem-main\\src\\finepayment.cpp",
+              "RelativeDocumentMoniker": "src\\finepayment.cpp",
+              "ToolTip": "C:\\Librarysystem-main\\src\\finepayment.cpp",
+              "RelativeToolTip": "src\\finepayment.cpp",
+              "ViewState": "AgIAADcAAAAAAAAAAAAywE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-02T08:42:52.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "finepayment.h",
+              "DocumentMoniker": "C:\\Librarysystem-main\\include\\finepayment.h",
+              "RelativeDocumentMoniker": "include\\finepayment.h",
+              "ToolTip": "C:\\Librarysystem-main\\include\\finepayment.h",
+              "RelativeToolTip": "include\\finepayment.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAywCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-02T08:42:25.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "finepayment.ui",
+              "DocumentMoniker": "C:\\Librarysystem-main\\ui\\finepayment.ui",
+              "RelativeDocumentMoniker": "ui\\finepayment.ui",
+              "ToolTip": "C:\\Librarysystem-main\\ui\\finepayment.ui",
+              "RelativeToolTip": "ui\\finepayment.ui",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAA==",
+              "Icon": "0d2e443f-6dbb-4001-99dc-9cd7d5c924e7.000006|",
+              "WhenOpened": "2025-07-02T08:41:47.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CMake \u6982\u8FF0\u9875",
+              "DocumentMoniker": "CMake \u6982\u8FF0\u9875",
+              "ToolTip": "CMake \u6982\u8FF0\u9875",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-02T08:40:56.57Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
