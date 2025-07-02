@@ -1,18 +1,19 @@
 cmake_minimum_required(VERSION 3.16)
 project(LibraryManagement VERSION 1.0 LANGUAGES CXX)
 
+# 自动处理 Qt UI、MOC、RCC 文件
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOUIC ON)
-set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(QT NAMES Qt5 Qt6 REQUIRED COMPONENTS Core)
-find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Gui Sql)
-find_package(Qt${QT_VERSION_MAJOR} OPTIONAL_COMPONENTS Widgets)
+# ✅ 指定使用 Qt6 并加载所需模块
+find_package(Qt6 REQUIRED COMPONENTS Core Gui Sql Widgets)
 
+# ✅ 指定 UI 搜索路径（用于 AUTOUIC）
 set(CMAKE_AUTOUIC_SEARCH_PATHS
     "${CMAKE_CURRENT_SOURCE_DIR}/ui"
     "${CMAKE_CURRENT_SOURCE_DIR}/ui/books"
@@ -21,6 +22,7 @@ set(CMAKE_AUTOUIC_SEARCH_PATHS
     "${CMAKE_CURRENT_SOURCE_DIR}/ui/users"
 )
 
+# 所有源文件
 set(SOURCES
     src/about.cpp
     src/books/addbook.cpp
@@ -43,9 +45,10 @@ set(SOURCES
     src/users/searchuser.cpp
     src/feedbackform.cpp
     src/backuprestore.cpp
-    src/finepayment.cpp         # ✅ 新增
+    src/finepayment.cpp
 )
 
+# 所有头文件
 set(HEADERS
     include/about.h
     include/books/addbook.h
@@ -67,9 +70,10 @@ set(HEADERS
     include/users/searchuser.h
     include/feedbackform.h
     include/backuprestore.h
-    include/finepayment.h       # ✅ 新增
+    include/finepayment.h
 )
 
+# 所有 UI 文件
 set(UI
     ui/about.ui
     ui/books/addbook.ui
@@ -89,13 +93,15 @@ set(UI
     ui/users/searchuser.ui
     ui/feedbackform.ui
     ui/backuprestore.ui
-    ui/finepayment.ui           # ✅ 新增
+    ui/finepayment.ui
 )
 
+# Qt 资源文件
 set(RESOURCES
     data/resource.qrc
 )
 
+# 构建可执行程序
 add_executable(LibraryManagement
     ${SOURCES}
     ${HEADERS}
@@ -103,9 +109,11 @@ add_executable(LibraryManagement
     ${RESOURCES}
 )
 
+# 链接 Qt6 库
 target_link_libraries(LibraryManagement
-    Qt${QT_VERSION_MAJOR}::Widgets
-    Qt${QT_VERSION_MAJOR}::Core
-    Qt${QT_VERSION_MAJOR}::Sql
+    Qt6::Widgets
+    Qt6::Core
+    Qt6::Sql
 )
+
 

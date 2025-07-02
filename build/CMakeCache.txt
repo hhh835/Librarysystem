@@ -144,7 +144,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 CMAKE_MT:FILEPATH=C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/mt.exe
 
 //No help, variable specified on the command line.
-CMAKE_PREFIX_PATH:UNINITIALIZED=C:/Qt/6.9.1/msvc2022_64
+CMAKE_PREFIX_PATH:UNINITIALIZED=C:/Qt/6.9.1/msvc2022_64/lib/cmake
 
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
@@ -256,9 +256,6 @@ QT_ADDITIONAL_HOST_PACKAGES_PREFIX_PATH:STRING=
 
 //Additional directories where find(Qt6 ...) components are searched
 QT_ADDITIONAL_PACKAGES_PREFIX_PATH:STRING=
-
-//The directory containing a CMake configuration file for QT.
-QT_DIR:PATH=C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6
 
 //The directory containing a CMake configuration file for Qt6CorePrivate.
 Qt6CorePrivate_DIR:PATH=C:/Qt/6.9.1/msvc2022_64/lib/cmake/Qt6CorePrivate

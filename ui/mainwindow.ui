@@ -238,14 +238,6 @@ QMenuBar::item:pressed{
     <addaction name="actionUser_Feedback"/>
     <addaction name="actionUser_Fine_Payment"/>
    </widget>
-   <widget class="QMenu" name="Transations">
-    <property name="title">
-     <string>Transations</string>
-    </property>
-    <addaction name="issueBook"/>
-    <addaction name="actionReturn_Book"/>
-    <addaction name="actionEdit_3"/>
-   </widget>
    <widget class="QMenu" name="Records">
     <property name="title">
      <string>Records</string>
@@ -266,9 +258,6 @@ QMenuBar::item:pressed{
       <property name="title">
        <string>Export as csv</string>
       </property>
-      <addaction name="csv_by_Id"/>
-      <addaction name="csv_by_authorName"/>
-      <addaction name="csv_by_bookName"/>
      </widget>
      <addaction name="menuPrint"/>
      <addaction name="menuExport_as_csv"/>
@@ -288,8 +277,6 @@ QMenuBar::item:pressed{
       <property name="title">
        <string>Export as csv</string>
       </property>
-      <addaction name="csvExportUsersById"/>
-      <addaction name="csvExportUsersByName"/>
      </widget>
      <addaction name="menuPrint_2"/>
      <addaction name="menuExport_as_csv_2"/>
@@ -299,14 +286,12 @@ QMenuBar::item:pressed{
       <string>Issued Books</string>
      </property>
      <addaction name="print_issued_books"/>
-     <addaction name="export_as_csv_issued_books"/>
     </widget>
     <widget class="QMenu" name="menuOverdue_Books">
      <property name="title">
       <string>Overdue Books</string>
      </property>
      <addaction name="print_overdue_books"/>
-     <addaction name="export_as_csv_overdue_books"/>
     </widget>
     <addaction name="menuBooks"/>
     <addaction name="menuUsers"/>
@@ -316,7 +301,6 @@ QMenuBar::item:pressed{
    </widget>
    <addaction name="Books"/>
    <addaction name="Users"/>
-   <addaction name="Transations"/>
    <addaction name="Records"/>
   </widget>
   <action name="addBook">
@@ -369,21 +353,6 @@ QMenuBar::item:pressed{
     <string>Print</string>
    </property>
   </action>
-  <action name="issueBook">
-   <property name="text">
-    <string>Issue Book</string>
-   </property>
-  </action>
-  <action name="actionReturn_Book">
-   <property name="text">
-    <string>Return Book</string>
-   </property>
-  </action>
-  <action name="actionEdit_3">
-   <property name="text">
-    <string>Edit </string>
-   </property>
-  </action>
   <action name="actionAdd_3">
    <property name="text">
     <string>Add</string>
@@ -414,19 +383,9 @@ QMenuBar::item:pressed{
     <string>Print</string>
    </property>
   </action>
-  <action name="export_as_csv_issued_books">
-   <property name="text">
-    <string>Export as csv</string>
-   </property>
-  </action>
   <action name="print_overdue_books">
    <property name="text">
     <string>Print</string>
-   </property>
-  </action>
-  <action name="export_as_csv_overdue_books">
-   <property name="text">
-    <string>Export as csv</string>
    </property>
   </action>
   <action name="actionPrint_7">
@@ -454,21 +413,6 @@ QMenuBar::item:pressed{
     <string>By Book Name</string>
    </property>
   </action>
-  <action name="csv_by_Id">
-   <property name="text">
-    <string>By ID</string>
-   </property>
-  </action>
-  <action name="csv_by_authorName">
-   <property name="text">
-    <string>By Author Name</string>
-   </property>
-  </action>
-  <action name="csv_by_bookName">
-   <property name="text">
-    <string>By Book Name</string>
-   </property>
-  </action>
   <action name="actionBy_Id">
    <property name="text">
     <string>By ID</string>
@@ -490,16 +434,6 @@ QMenuBar::item:pressed{
    </property>
   </action>
   <action name="printUsersByName">
-   <property name="text">
-    <string>By Name</string>
-   </property>
-  </action>
-  <action name="csvExportUsersById">
-   <property name="text">
-    <string>By ID</string>
-   </property>
-  </action>
-  <action name="csvExportUsersByName">
    <property name="text">
     <string>By Name</string>
    </property>
